@@ -1,6 +1,6 @@
 
 /**
- * This is my GetToKnowYou class.
+ * This program will show the use of single print or println statement with facts about myself.
  *
  * @author Lorence Sacco Salerno
  * @version 1.2.0.26

@@ -1,6 +1,6 @@
 
 /**
- * This is my Diamond class here.
+ * This program will print out a diamond using the println method.
  *
  * @author Lorence Sacco Salerno
  * @version 1.2.0.26
