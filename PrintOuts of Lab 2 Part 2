@@ -1,0 +1,22 @@
+Enter your first name: Lorence
+Enter your middle name: Michael
+Enter your last name: Sacco Salerno
+My name is: Lorence Michael Sacco
+My initials are: LMS
+Enter your first name: Lorence
+Enter your middle name: Michael
+Enter your last name: Sacco Salerno
+My name is: Lorence Michael Sacco
+My initials are: LMS
+Enter a city: San Diego
+The city entered has: 9 chars
+In upper case: SAN DIEGO
+In lower case: san diego
+First character: S
+Enter meal amount: $25.5
+The tax is: $1.72
+The tip is: $5.10
+The meal cost with tax and tip is: $32.32
+Enter the price per share: 21.77
+Enter the number of shares purchased: 600
+Commission amount: $261.24 Total paid: $13323.24

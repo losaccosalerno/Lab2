@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Imprecision
+comment0.text=\n\ This\ Imprecision\ class\ will\ compute\ the\ values\ of\ x,\ y,\ and\ z\ in\ order\ to\ practice\ my\ computation\ skills\ on\ Java.\ \n\n\ @author\ Lorence\ Sacco\ Salerno\n\ @version\ 1.2.0.26\n\ Feb\ 13,\ 2026\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GetToKnowYou
+comment0.text=\n\ This\ program\ will\ show\ the\ use\ of\ sinle\ print\ or\ println\ statement\ with\ facts\ about\ myself.\n\n\ @author\ Lorence\ Sacco\ Salerno\n\ @version\ 1.2.0.26\n\ Feb\ 13,\ 2026\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
