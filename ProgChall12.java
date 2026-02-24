@@ -1,39 +1,32 @@
 import java.util.Scanner;
 /**
- * This ProChall 12 class will print out my selected city and count of characters, then print uppercase, print lower case, and conduct character recognition. 
- * Step 1: Importing
- * Step 2: Variable Declaration
- * Step 3: Initialize Scanner
- * Step 4: Input
- * Step 5: String Operations
- * Step 6: Output
+ * This ProChall 12 class will print out my selected city and specific characters. 
+ * 1) Variable Declarations
+ * 2) Initialize Scanner
+ * 3) String Operations
+ * 4) Output
  * 
  * @author Lorence Sacco Salerno
- * @version 1.2.0.26
- * Feb 21, 2026
+ * @version 1.2.1.26
+ * Feb 22, 2026
  */
 public class ProgChall12
 {
     public static void main(String[] args)
     {
-        // Step 2 – Variable Declarations
-        String city;           
-        int length;            
-        char firstChar;        
-        Scanner keyboard;      
+        // Variable Declarations
+        String city;  int length;  char firstChar;            
 
-        // Step 3 – Initialize Scanner
-        keyboard = new Scanner(System.in);
-
-        // Step 4 – Input
+        // Initialize Scanner
+        Scanner keyboard = new Scanner(System.in);
         System.out.print("Enter a city: ");
-        city = keyboard.nextLine();  // Reads the full city name
+        city = keyboard.nextLine(); 
 
-        // Step 5 – String Operations
-        length = city.length();          // Number of characters
-        firstChar = city.charAt(0);      // First character
+        // String Operations
+        length = city.length();         
+        firstChar = city.charAt(0);     
 
-        // Step 6 – Output
+        // Output
         System.out.println("The city entered has: " + length + " chars");
         System.out.println("In upper case: " + city.toUpperCase());
         System.out.println("In lower case: " + city.toLowerCase());

@@ -1,47 +1,38 @@
 import java.util.Scanner;
 /**
- * This ProChall 15 class will generate the number total amount paid for number of shares purchase, and gather commissiong total. 
- * Step 1: Importing
- * Step 2: Variable Declaration
- * Step 3: Constant Declarations
- * Step 4: Initialize Scanner
- * Step 5: Input
- * Step 6: Operations
- * Step 7: Output
+ * This ProChall 15 class will generate total amount paid for number of shares purchased.
+ * 1) Variable Declarations
+ * 2) Input
+ * 3) Computations
+ * 4) Output
  * 
  * @author Lorence Sacco Salerno
- * @version 1.2.0.26
- * Feb 21, 2026
+ * @version 1.2.1.26
+ * @since Feb 22, 2026
  */
 public class ProgChallenge15
 {
     public static void main(String[] args)
     {
-        // Step 2 – Variable Declarations
-        double pricePerShare;     // Price of a single share
-        int numberOfShares;       // Number of shares purchased
-        double commissionAmount;  // Commission on the transaction
-        double totalPaid;         // Total cost including commission
-        Scanner keyboard;         // Scanner reference variable
+        //Variable Declarations
+        double pricePerShare, shareAmount, commissionAmount, totalPaid;    
+        int numberOfShares;                        
+        final double COMMISSION_RATE = 0.02;
 
-        // Step 3 – Constant Declarations
-        final double COMMISSION_RATE = 0.02;  // 2% commission
-
-        // Step 4 – Initialize Scanner
-        keyboard = new Scanner(System.in);
-
-        // Step 5 – Input
+        // Input
+        Scanner keyboard = new Scanner(System.in);        
         System.out.print("Enter the price per share: ");
         pricePerShare = keyboard.nextDouble();
 
         System.out.print("Enter the number of shares purchased: ");
         numberOfShares = keyboard.nextInt();
 
-        // Step 6 – Operations
+        // Computations
+        shareAmount = (pricePerShare * numberOfShares);
         commissionAmount = (pricePerShare * numberOfShares) * COMMISSION_RATE;
         totalPaid = (pricePerShare * numberOfShares) + commissionAmount;
-
-        // Step 7 – Output
-        System.out.println("Commission amount: $" + commissionAmount + " Total paid: $" + totalPaid);
+    
+        // Output
+        System.out.printf("Total cost of shares are: $%,.2f\nCommission cost is: $%,.2f\nTotal Cost is: $%,.2f", shareAmount, commissionAmount, totalPaid);
     }
 }

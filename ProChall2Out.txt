@@ -1,0 +1,5 @@
+Enter your first name: Lorence
+Enter your middle name: Michael
+Enter your last name: Sacco
+My name is: Lorence Michael Sacco
+My initials are: LMS
